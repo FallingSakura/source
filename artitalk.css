@@ -1,0 +1,36 @@
+              <!-- 自定义样式 -->
+              <style>
+                .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
+                  background: linear-gradient(-45deg, #DADCDB, #403E4E, #93A6B1, #9A9FB6) 0% 0% / 400% 400%;
+                  animation: 15s ease 0s infinite normal none running gradientBG;
+                  color: white;
+                }
+                .cbp_tmtimeline>li .cbp_tmlabel {
+                  background: linear-gradient(-45deg, #DADCDB, #403E4E, #93A6B1, #9A9FB6) 0% 0% / 400% 400%;
+                  animation: 15s ease 0s infinite normal none running gradientBG;
+                  color: white;
+                }
+                .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
+                  border-right-color:  #9A9FB6
+                }
+                .cbp_tmtimeline>li .cbp_tmlabel:after {
+                  border-right-color:  #DADCDB
+                }
+                .button {
+                  background: linear-gradient(-45deg, #DADCDB, #403E4E, #93A6B1, #9A9FB6) 0% 0% / 400% 400%;
+                  animation: 15s ease 0s infinite normal none running gradientBG;
+                  color: white;
+                }
+                @keyframes gradientBG {
+                    0% {
+                        background-position: 0% 50%;
+                    }
+                    50% {
+                        background-position: 100% 50%;
+                    }
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
+              </style>
+              <!-- 自定义样式.end -->
