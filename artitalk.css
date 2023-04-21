@@ -1,23 +1,23 @@
-              <!-- 自定义样式 -->
+ <!-- 自定义样式 -->
               <style>
                 .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel {
-                  background: linear-gradient(-45deg, #DADCDB, #403E4E, #93A6B1, #9A9FB6) 0% 0% / 400% 400%;
+                  background: linear-gradient(-45deg, #FFD972, #EFA7A7, #FCBCB8, #A7E8BD) 0% 0% / 400% 400%;
                   animation: 15s ease 0s infinite normal none running gradientBG;
                   color: white;
                 }
                 .cbp_tmtimeline>li .cbp_tmlabel {
-                  background: linear-gradient(-45deg, #DADCDB, #403E4E, #93A6B1, #9A9FB6) 0% 0% / 400% 400%;
+                  background: linear-gradient(-45deg, #FFD972, #EFA7A7, #FCBCB8, #A7E8BD) 0% 0% / 400% 400%;
                   animation: 15s ease 0s infinite normal none running gradientBG;
                   color: white;
                 }
                 .cbp_tmtimeline>li:nth-child(odd) .cbp_tmlabel:after {
-                  border-right-color:  #9A9FB6
+                  border-right-color:  #FCBCB8
                 }
                 .cbp_tmtimeline>li .cbp_tmlabel:after {
-                  border-right-color:  #DADCDB
+                  border-right-color:  #A7E8BD
                 }
                 .button {
-                  background: linear-gradient(-45deg, #DADCDB, #403E4E, #93A6B1, #9A9FB6) 0% 0% / 400% 400%;
+                  background: linear-gradient(-45deg, #FFD972, #EFA7A7, #FCBCB8, #A7E8BD) 0% 0% / 400% 400%;
                   animation: 15s ease 0s infinite normal none running gradientBG;
                   color: white;
                 }
