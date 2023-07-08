@@ -22,7 +22,7 @@ if (sessionStorage.getItem("popCookieWindow") != "0") {
             pos: 'bottom-right',
             actionText: "查看博客声明",
             onActionClick: function (element) {
-                window.open("/update")
+                window.open("/nounce")
             },
         })
     }, 3000)
