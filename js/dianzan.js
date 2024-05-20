@@ -18,7 +18,7 @@ $(document).ready(function () {
     AV.init({
         appId: "qUTdbL2IGy4AUv8Xuu0yu2yz-MdYXbMMI",
         appKey: "Xtr6BZ54iazXvRMvONJquKJn",
-        serverURL: "https://dianzan.fallingsakura.love"
+        serverURL: "https://dianzan.fallingsakura.top"
     });
     var dianzans = [];
     var hrefs = [];
